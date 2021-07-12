@@ -35,5 +35,4 @@ print(person[1])
 name, age, gender = person
 print(gender)
 
-
 print("github에 확인하기위한 추가 내용입니다")
