@@ -34,3 +34,6 @@ print(person[1])
 # person[1] = 45  # 에러 : kim으로 문자열인데 숫자로 넣으려하니 에러뜸
 name, age, gender = person
 print(gender)
+
+
+print("github에 확인하기위한 추가 내용입니다")
