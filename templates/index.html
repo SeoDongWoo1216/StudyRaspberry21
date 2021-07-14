@@ -9,12 +9,19 @@
 </head>
 <body>
     <h1>Node.js 제목 </h1>
-    <h3>{{user}}</h3>
-    <p>Node.js 를 배우고 있는 페이지입니다</p>
+    <!-- <h3>{#user#}</h3> -->
+    <p> Node.js 를 배우고 있는 페이지입니다. </p>
+
+    <!-- 
     <p>
-        유저아이디 : {{data.userid}} <br>
-        성별 : {{data.gender}} <br>
-        나이 : {{data.age}} <br>
+        유저아이디 : {#data.userid#} <br>
+        성별 : {#data.gender#} <br>
+        나이 : {#data.age#} <br>
     </p>
+    -->
+    <form action="/get" method="GET">
+        <input type="text" name="user">
+        <input type="submit" value="전송">
+    </form>
 </body>
 </html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>result.html 페이지</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+</head>
+<body>
+    {{result}}
+
+    
+    <!-- 파이썬 코드를 넣기위해 {# % % #} 사이에 코드를 삽입-->
+    <ul>
+        {% for item in friends %}
+            <li>{{item}}</li>
+        {% endfor%}
+    </ul>
+</body>
+</html>
