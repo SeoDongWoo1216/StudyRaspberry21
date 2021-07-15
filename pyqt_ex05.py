@@ -17,6 +17,14 @@ class MyWindow(QMainWindow):
 
     def btnSearch_Clicked(self):
         api = naverSearch()
+        jsonResult = []
+        sNode = 'news'
+        search_word = self.txtSearchWord.text()  # 텍스트 박스에있는 데이터를 변수에 저장
+        display = 100
+
+        # naver api search
+        jsonSearch = api.getNaverSearchResult(sNode, search_word, 1, display)
+        print(jsonSearch)
 
 
 if __name__ == '__main__':
