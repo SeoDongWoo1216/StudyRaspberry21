@@ -35,13 +35,13 @@ class MyWindow(QMainWindow):
         for post in result:
             # 기사제목의 html들을 전부 걸러주기(<br>, &quot 등을 파싱해주기)
             title = post['title'].replace('&lt;', '<').replace('&gt;', '>').replace('<b>', '').replace('</b>', '').replace('&quot;',"'")
-            
+
             self.tblResult.setItem(n, 0, QTableWidgetItem(title))
             self.tblResult.setItem(n, 1, QTableWidgetItem(post['originallink']))
             n += 1
 
-        self.tblResult.setColumnWidth(0, 400)  # 0번째 컬럼 사이즈
-        self.tblResult.setColumnWidth(1, 300)  # 1번째 컬럼 사이즈
+        self.tblResult.setColumnWidth(0, 300)  # 0번째 컬럼 사이즈
+        self.tblResult.setColumnWidth(1, 200)  # 1번째 컬럼 사이즈
         self.tblResult.setEditTriggers(QAbstractItemView.NoEditTriggers) # 컬럼 데이터 수정 못하게 막아줌(Readonly 처리)
 
     def btnSearch_Clicked(self):

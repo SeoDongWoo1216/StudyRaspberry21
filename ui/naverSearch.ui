@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>446</width>
-    <height>410</height>
+    <width>541</width>
+    <height>518</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,8 +19,8 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>461</width>
-      <height>361</height>
+      <width>511</width>
+      <height>431</height>
      </rect>
     </property>
     <property name="title">
@@ -31,7 +31,7 @@
       <rect>
        <x>90</x>
        <y>30</y>
-       <width>211</width>
+       <width>301</width>
        <height>33</height>
       </rect>
      </property>
@@ -52,7 +52,7 @@
     <widget class="QPushButton" name="btnSearch">
      <property name="geometry">
       <rect>
-       <x>310</x>
+       <x>400</x>
        <y>30</y>
        <width>105</width>
        <height>31</height>
@@ -67,8 +67,8 @@
       <rect>
        <x>20</x>
        <y>70</y>
-       <width>401</width>
-       <height>271</height>
+       <width>481</width>
+       <height>341</height>
       </rect>
      </property>
     </widget>
@@ -79,7 +79,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>446</width>
+     <width>541</width>
      <height>32</height>
     </rect>
    </property>
