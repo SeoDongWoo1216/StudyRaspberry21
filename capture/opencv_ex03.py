@@ -1,4 +1,4 @@
-# 얼굴인식 소스
+# 얼굴인식 소스입니다
 #/usr/bin/python3
 
 import numpy as np
@@ -58,6 +58,7 @@ if __name__ == '__main__':
         cv2.imshow('facedetect', vis)
 
         if 0xFF & cv2.waitKey(5) == ord('q'): # q 누르면 종료 
+            print(종료합니다)
             break
 
     img.relesase()
