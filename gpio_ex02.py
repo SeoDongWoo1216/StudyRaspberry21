@@ -3,9 +3,9 @@ import time
 
 red = 19
 yellow = 4
-green = 17
 
 GPIO.setwarnings(False)
+green = 17
 GPIO.setmode(GPIO.BCM)
 GPIO.cleanup()
 GPIO.setup(red, GPIO.OUT)

@@ -44,7 +44,7 @@ class MyWindow(QMainWindow):
         self.tblResult.setColumnWidth(1, 200)  # 1번째 컬럼 사이즈
         self.tblResult.setEditTriggers(QAbstractItemView.NoEditTriggers) # 컬럼 데이터 수정 못하게 막아줌(Readonly 처리)
 
-    def btnSearch_Clicked(self):
+    def btnSearch_Clicked(self): # 
         api = naverSearch()
         jsonResult = []
         sNode = 'news'
