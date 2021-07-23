@@ -27,8 +27,8 @@ while True:
     ret, frame = cap.read() # 카메라 현재 영상 로드, frame에 저장, ret True/False
     h, w, _ = frame.shape  
     now = datetime.datetime.now()
-    currDateTime = now.strftime('%Y-%m-%d %H:%M:%S')  # 영상에 보여줄 현재 시간
-    fileDateTime = now.strftime('%Y%m%d_%H:%M:%S') # 파일에 현재 시간 저장20210720_164725
+    currDateTime = now.strftime('%Y-%m-%d %H%M%S')  # 영상에 보여줄 현재 시간
+    fileDateTime = now.strftime('%Y%m%d_%H%M%S') # 파일에 현재 시간 저장20210720_164725
 
     if ret != True: break   # ret이 False이면 루프탈출
     

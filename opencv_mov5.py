@@ -18,7 +18,7 @@ while True:
     ret, frame = cap.read() # 카메라 현재 영상 로드, frame에 저장, ret True/False
     h, _, _ = frame.shape  # Width, Channel은 불필요
     now = datetime.datetime.now()
-    currDateTime = now.strftime('%Y-%m-%d %H:%M:%S')
+    currDateTime = now.strftime('%Y-%m-%d %H%M%S')
 
 
     if ret != True: break   # ret이 False이면 루프탈출
