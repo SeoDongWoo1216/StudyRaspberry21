@@ -69,7 +69,7 @@ while True:
 
     # 차이나는 이미지 개수가 10개 이상이면 움직임이 발생했다고 판단하고 캡처
     if diff_cnt > diff_max:
-        #cv2.imwrite('./capture/img_{0}.png'.format(fileDateTime), frame)
+        cv2.imwrite('./capture/img_{0}.png'.format(fileDateTime), frame)
         print('움직임 발생 : 이미지 저장 완료')
 
     # 움직임 결과 영상 출력
