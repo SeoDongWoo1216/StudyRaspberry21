@@ -3,13 +3,7 @@
 
 -------------------------
 
-<!-- 
-![QT화면](https://github.com/SeoDongWoo1216/StudyRaspberry21/blob/main/image/Qt%ED%99%94%EB%A9%B4.PNG)
-![검색화면](https://github.com/SeoDongWoo1216/StudyRaspberry21/blob/main/image/%EA%B2%80%EC%83%89%EA%B2%B0%EA%B3%BC.PNG)
-![Url연결화면](https://github.com/SeoDongWoo1216/StudyRaspberry21/blob/main/image/url%EC%97%B0%EA%B2%B0.PNG)
-![실행화면](https://github.com/SeoDongWoo1216/StudyRaspberry21/blob/main/image/NaverSearchAPI%20%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4.gif)
 
--->
 ## Naver API 검색 프로그램(with QT)
 QT5 이미지 <br>
 
@@ -22,8 +16,8 @@ QT5 이미지 <br>
 
 </a>
 
-## OpenCV Image 처리
-대충 이미지 여러개 링크처리
+## [OpenCV Image 처리](https://github.com/SeoDongWoo1216/StudyRaspberry21/tree/main/openCV)
+이미지에 효과를 적용한 예제 소스입니다.
 
 
 ## OpenCV 영상처리
