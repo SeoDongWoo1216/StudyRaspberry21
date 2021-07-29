@@ -161,15 +161,42 @@ if __name__ == '__main__':
     sys.exit(app.exec_())
 ```
 
-- [QT 네이버서치 디자인 소스](https://github.com/SeoDongWoo1216/StudyRaspberry21/blob/main/pyqt_ex/ui/naverSearch.ui)
+
 
 <p align = "center">
-<a>
-<img src="https://github.com/SeoDongWoo1216/StudyRaspberry21/blob/main/result_image/%EB%84%A4%EC%9D%B4%EB%B2%84%EA%B2%80%EC%83%89API/Qt%ED%99%94%EB%A9%B4.PNG" width="50%" height="50%">
-<img src="https://github.com/SeoDongWoo1216/StudyRaspberry21/blob/main/result_image/%EB%84%A4%EC%9D%B4%EB%B2%84%EA%B2%80%EC%83%89API/%EA%B2%80%EC%83%89%EA%B2%B0%EA%B3%BC.PNG" width="50%" height="50%">
-<img src="https://github.com/SeoDongWoo1216/StudyRaspberry21/blob/main/result_image/%EB%84%A4%EC%9D%B4%EB%B2%84%EA%B2%80%EC%83%89API/url%EC%97%B0%EA%B2%B0.PNG" width="50%" height="50%">
-  
-<img src = "https://github.com/SeoDongWoo1216/StudyRaspberry21/blob/main/result_image/%EB%84%A4%EC%9D%B4%EB%B2%84%EA%B2%80%EC%83%89API/NaverSearchAPI%20%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4.gif" >  
-
-</a>
+    <img src="https://github.com/SeoDongWoo1216/StudyRaspberry21/blob/main/result_image/%EB%84%A4%EC%9D%B4%EB%B2%84%EA%B2%80%EC%83%89API/Qt%ED%99%94%EB%A9%B4.PNG" width="50%" height="50%">
+ </p>
+ 
+<p align = "center">
+네이버 서치 QT 디자인    
 </p>
+
+  <br><br>
+  
+<p align = "center">  
+<img src="https://github.com/SeoDongWoo1216/StudyRaspberry21/blob/main/result_image/%EB%84%A4%EC%9D%B4%EB%B2%84%EA%B2%80%EC%83%89API/%EA%B2%80%EC%83%89%EA%B2%B0%EA%B3%BC.PNG" width="50%" height="50%">
+</p>
+  
+<p align = "center">  
+검색화면    
+</p>
+    
+<br><br>
+      
+<p align = "center"> 
+    <img src="https://github.com/SeoDongWoo1216/StudyRaspberry21/blob/main/result_image/%EB%84%A4%EC%9D%B4%EB%B2%84%EA%B2%80%EC%83%89API/url%EC%97%B0%EA%B2%B0.PNG" width="50%" height="50%">
+    </p>
+    
+<p align = "center"> 
+검색화면에서 그리드를 더블 클릭했을때 웹 화면
+</p>
+      
+<br><br>
+      
+<p align = "center"> 
+    <img src = "https://github.com/SeoDongWoo1216/StudyRaspberry21/blob/main/result_image/%EB%84%A4%EC%9D%B4%EB%B2%84%EA%B2%80%EC%83%89API/NaverSearchAPI%20%EC%8B%A4%ED%96%89%ED%99%94%EB%A9%B4.gif" >  
+   </p>
+
+<p align = "center">
+    실행 영상
+ </p>
