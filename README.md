@@ -5,7 +5,7 @@
 
 
 ## [Naver API 검색 프로그램(with QT)](https://github.com/SeoDongWoo1216/StudyRaspberry21/tree/main/pyqt_ex)
-네이버 검색 API를 활용하여 QT에서 검색 기능 구현, 검색 결과를 더블 클릭하면 해당 웹으로 연결까지 구현한 프로그램입니다.
+네이버 API를 활용하여 QT에서 검색 기능, 검색 결과를 더블 클릭하면 해당 웹으로 연결까지 구현한 프로그램입니다.
 
 
 ## [OpenCV Image 처리](https://github.com/SeoDongWoo1216/StudyRaspberry21/tree/main/openCV)
